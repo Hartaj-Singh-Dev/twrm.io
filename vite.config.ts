@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import postcss from './postcss.config.js'
 import { createHtmlPlugin } from 'vite-plugin-html'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
 
@@ -14,6 +15,9 @@ export default defineConfig({
         fs: {
             strict: false
         }
+    },
+    css: {
+        postcss,
     },
     plugins: [
         svelte(),
