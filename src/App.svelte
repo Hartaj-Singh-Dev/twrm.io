@@ -1,3 +1,8 @@
+<!-- 
+    The main app shell component.
+    Created On 14 March 2022
+ -->
+
 <script>
     console.log('App component loaded')
 </script>

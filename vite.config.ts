@@ -1,3 +1,8 @@
+/*
+ *  Vite.js bundler configuration for twrm.io project.
+ *  Created On 14 March 2022
+ */
+
 import { defineConfig } from 'vite'
 import postcss from './postcss.config.js'
 import { createHtmlPlugin } from 'vite-plugin-html'

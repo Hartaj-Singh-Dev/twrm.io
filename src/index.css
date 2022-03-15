@@ -1,3 +1,9 @@
+/*
+ *  Main stylesheet for twrm.io project.
+ *  Created On 14 March 2022
+ */
+
+/* TailwindCSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
