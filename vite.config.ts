@@ -7,6 +7,7 @@ import { defineConfig } from 'vite'
 import postcss from './postcss.config.js'
 import { createHtmlPlugin } from 'vite-plugin-html'
 import { svelte } from '@sveltejs/vite-plugin-svelte'
+import { svelteSVG } from 'rollup-plugin-svelte-svg'
 
 export default defineConfig({
     clearScreen: false,
@@ -26,6 +27,10 @@ export default defineConfig({
     },
     plugins: [
         svelte(),
+        svelteSVG({
+            svgo: {},
+            enforce: 'pre'
+        }),
         createHtmlPlugin({
             minify: true
         }),

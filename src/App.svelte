@@ -3,10 +3,8 @@
     Created On 14 March 2022
  -->
 
-<script>
-    console.log('App component loaded')
+<script lang="ts">
+    import Header from './components/header/header.svelte'
 </script>
 
-<main class="bg-slate-100">
-    <h1>Hello Svelte 👋</h1>
-</main>
+<Header/>
