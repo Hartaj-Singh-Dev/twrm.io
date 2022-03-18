@@ -29,7 +29,13 @@
 
 > Tweet me <a target="_blank" rel="noopener" href="https://vas.cx/twitter">@vsnthdev</a>, I would love to know your opinion/experience on this project 😍
 
-<!-- ## 📘 Usage -->
+<!-- ## 📘 Usage --> 
+
+
+**Check out the demo below --->** 
+
+![alt text](https://github.com/ShruAgarwal/twrm.io/blob/twrm/demo.gif)
+
 
 <!-- ## 🛠 Tooling -->
 
